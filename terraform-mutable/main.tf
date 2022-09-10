@@ -2,7 +2,7 @@
 #   source = "git::https://github.com/b49-clouddevops/tf-module-vpc.git?ref=main"
 # }
 
-module "cart" {
+module "user" {
   source               = "./vendor/modules/app"
   # COMPONENT          = var.COMPONENT
   INSTANCE_TYPE        = var.INSTANCE_TYPE 
