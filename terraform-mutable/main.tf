@@ -12,6 +12,7 @@ module "user" {
   COMPONENT            = var.COMPONENT 
   APP_PORT             = var.APP_PORT 
   WORKSPATION_IP       = var.WORKSPATION_IP
+  PROMETHEUS_IP        = var.PROMETHEUS_IP
   APP_VERSION          = var.APP_VERSION
   LB_TYPE              = "internal"
 }
