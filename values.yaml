@@ -5,10 +5,10 @@
 replicaCount: 1
 
 image:
-  repository: nginx
+  repository: 834725375088.dkr.ecr.us-east-1.amazonaws.com/user
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: ""
+  tag: "7.0.0"
 
 imagePullSecrets: []
 nameOverride: ""
